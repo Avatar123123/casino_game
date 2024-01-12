@@ -1,0 +1,37 @@
+
+
+.play__button__container {
+    text-align: center;
+    justify-content: center;
+}
+
+.play__button {
+    text-decoration: none;
+    padding: 10px 30px;
+    height: 100%;
+    width: 200px;
+    border-radius: 10px;
+    background: red;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.play__button:hover {
+    box-sizing: border-box;
+    background: green;
+    background-color: rgb(96, 96, 233);
+    transition: all 0.2s ease;
+}
+
+.list {
+    display: grid;
+    text-align: center;
+    color:brown;
+    padding: 10px;
+}
+
+.match__count {
+    color: green;
+
+}

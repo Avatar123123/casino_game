@@ -1,0 +1,58 @@
+
+.token__wrapper {
+    display: grid;
+    justify-content: center;
+    background-color: yellow;
+    width: 2;
+}
+
+.token__container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 50px; 
+}
+
+.token {
+    padding: 10px 50px;
+    border-radius: 30px;
+    background-color: lightgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.token:hover {
+    color: white;
+    background: rgb(81, 81, 245);
+    border-radius: 30px;
+}
+
+.token__info {
+    color: blue;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+
+}
+.result_two {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    .token__container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .token {
+        width: 80%;
+    }
+}

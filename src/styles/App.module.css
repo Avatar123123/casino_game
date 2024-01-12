@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+.banner {
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+}
+
+.instruction__container {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+ }
+ 
+.instruction {
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.instruction p {
+    text-align: left;
+}
